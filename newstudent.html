@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký học viên</title>
+    <style>
+        legend.centerleg {
+            text-align: left;
+            margin: auto;
+            font-weight: bold;
+            background-color: rgb(99, 202, 163);
+            color: blue;
+        }
+        label.a {
+            color: rgb(52, 110, 235);
+        }
+        input.box {
+            margin-left: 80px;
+        }
+    </style>
+</head>
+<body> 
+    <form action="ex_basicform.html" method="post" style="width: 600px; background-color: rgb(231, 224, 122);">
+        <legend class="centerleg">ĐĂNG KÝ HỌC VIÊN</legend>
+        <label for="name" class="a">Họ và tên</label>
+        <input type="text" class="box" name="name" size="30">
+        <br>
+        <label for="date" class="a">Ngày sinh</label>
+        <input type="date" class="box" name="date" size="20">
+        <br>
+        <label for="gender" class="a">Giới tính</label>
+        <input type="radio" name="gender" value="male" style="margin-left: 80px;">Nam
+        <input type="radio" name="gender" value="female">Nữ
+        <br>
+        <label for="adress" class="a">Địa chỉ</label>
+        <textarea name="adress" cols="40" rows="4" style="margin-left: 100px;"></textarea>
+        <br>
+        <label for="class" class="a">Lớp</label>
+        <select name="class" style="margin-left: 120px;">
+            <option value="" selected="selected" disabled>Chọn lớp</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <br>
+        <label for="email" class="a">Email</label>
+        <input type="text" name="email" size="25" style="margin-left: 110px;">
+        <br>
+        <label for="phone" class="a">Điện thoại</label>
+        <input type="text" class="box" name="phone" size="25">
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
