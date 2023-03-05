@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sở thích</title>
+    <style>
+        legend.centerleg {
+            text-align: center;
+            margin: auto;
+            background-color: red;
+        }
+        label.centerla {
+            color: blue;
+            margin-right: 200px;
+            margin-left: 10%;
+        }
+        p {
+            color: orange;
+        }
+    </style>
+</head>
+<body> 
+    <form action="ex_basicform.html" method="post" style="border: solid 10px aquamarine; width: 600px;">
+        <legend class="centerleg">SỞ THÍCH CỦA BẠN</legend>
+        <label for="yourname" class="centerla">Họ và tên  <input type="text" name="yourname"></label>
+        <label for="email" class="centerla">Email &#160;&#160;&#160;&#160;&#160;&#160;&#160;<input type="text" name="email"></label>
+        <label for="hobby" style="margin-left: 10%; color: blue;">Sở thích</label>
+        <input type="checkbox" name="hobby"><label for="hobby" style="color: orange;">Thể thao</label>
+        <input type="checkbox" name="hobby"><label for="hobby" style="color: orange;">Âm nhạc</label>
+        <input type="checkbox" name="hobby"><label for="hobby" style="color: orange;">Đọc sách</label>
+        <br>
+        <input type="checkbox" name="hobby" style="margin-left: 130px;"><label for="hobby" style="color: orange;">Luớt web</label>
+        <input type="checkbox" name="hobby"><label for="hobby" style="color: orange;">Chơi game</label>
+        <input type="checkbox" name="hobby"><label for="hobby" style="color: orange;">Điện ảnh</label>
+        <br>
+        <input type="checkbox" name="hobby" style="margin-left: 130px;"><label for="hobby" style="color: orange;">Du lịch</label>
+        <br>
+        <input type="submit" value="Submit" style="margin-left: 130px;">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
